@@ -33,27 +33,6 @@ Você pode definir a variável de ambiente através do PowerShell com o seguinte
 ```
 Reinicie o PowerShell ou o seu terminal para aplicar as alterações.
 
-### Instalação Automática (Recomendado)
-
-Para uma instalação fácil, você pode usar os scripts de instalação que automatizam o download, a compilação e a configuração do `gemini-help-me` no seu sistema.
-
-**Linux/macOS:**
-
-Execute o seguinte comando no seu terminal:
-
-```bash
-curl -sSL https://raw.githubusercontent.com/your-username/gemini-help-me/main/install.sh | bash
-```
-
-**Windows:**
-
-Abra o PowerShell como Administrador e execute o seguinte comando:
-
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/your-username/gemini-help-me/main/install.ps1'))
-```
-> **Nota:** Os scripts de instalação precisam ser atualizados com a URL correta do repositório assim que ele for publicado.
-
 ### Construindo e Executando (Manual)
 
 1.  Clone o repositório.
